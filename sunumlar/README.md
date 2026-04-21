@@ -16,6 +16,10 @@ Teknik konularda hazırlanmış sunum materyalleri.
 | 06 | ⚙️ GitHub Actions (CI/CD) | [06-github-actions.md](./06-github-actions.md) | 15 |
 | 07 | 🔧 Ansible | [07-ansible.md](./07-ansible.md) | 14 |
 | 08 | 💻 Bash Scripting | [08-bash-scripting.md](./08-bash-scripting.md) | 15 |
+| 09 | 🏗️ Terraform | [09-terraform.md](./09-terraform.md) | 15 |
+| 10 | 📊 Prometheus & Grafana | [10-prometheus-grafana.md](./10-prometheus-grafana.md) | 14 |
+| 11 | 🐘 PostgreSQL | [11-postgresql.md](./11-postgresql.md) | 14 |
+| 12 | 🔐 Linux Sunucu Güvenliği | [12-guvenlik.md](./12-guvenlik.md) | 14 |
 
 > **Not:** Nginx için kapsamlı teknik referans dökümanı ana dizinde [`nginx-sunum.md`](../nginx-sunum.md) olarak da mevcuttur.
 
@@ -46,6 +50,18 @@ Agentsız yapılandırma yönetimi, Inventory tanımları, Ad hoc komutlar, Play
 
 ### 💻 08 — Bash Scripting
 Shebang ve çalıştırma, değişkenler, kullanıcı girişi, koşullar (if/case), döngüler (for/while), fonksiyonlar, hata yönetimi (set -euo pipefail, trap), metin işleme, dosya kilitleme, yedekleme ve sağlık kontrolü scriptleri.
+
+### 🏗️ 09 — Terraform
+Infrastructure as Code kavramı, Provider yapılandırması (AWS), temel komutlar (init/plan/apply/destroy), Resources ile altyapı tanımlama, Variables/Outputs, Modules, count/for_each döngüleri, State yönetimi, Workspaces ve GitHub Actions CI/CD entegrasyonu.
+
+### 📊 10 — Prometheus & Grafana
+Gözlemlenebilirliğin 3 sütunu, Prometheus pull-based çalışma modeli, Docker Compose kurulum, prometheus.yml yapılandırması, Exporter'lar (node/nginx/postgres/cadvisor), PromQL sorgu dili, Alerting Rules, Alertmanager (Slack/PagerDuty), Grafana dashboard oluşturma, Custom metrikler, Loki ile log izleme, SLI/SLO/SLA.
+
+### 🐘 11 — PostgreSQL
+Kurulum (Ubuntu/CentOS/Docker), kullanıcı ve yetki yönetimi, tablo tasarımı (veri tipleri, kısıtlar, indeksler), CRUD işlemleri ve Upsert, JOIN türleri, CTE ve pencere fonksiyonları, EXPLAIN ile sorgu analizi, pg_dump/pg_restore ile yedekleme, postgresql.conf ayarları, replikasyon temelleri.
+
+### 🔐 12 — Linux Sunucu Güvenliği
+Defense in Depth prensibi, SSH hardening (anahtar tabanlı giriş, root engel), UFW/firewalld güvenlik duvarı, Fail2ban brute-force koruması, otomatik güvenlik güncellemeleri, sudo kısıtlama ve denetim logları, auditd, Lynis ve rkhunter güvenlik taraması, Systemd güvenlik kısıtlamaları, güvenlik kontrol listesi.
 
 ---
 
